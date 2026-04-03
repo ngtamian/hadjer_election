@@ -10,6 +10,7 @@ import { Event} from "@/sections/Event";
 
 import Image from "next/image";
 import { Footer } from "@/sections/Footer";
+import { Vote } from "@/sections/Vote";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Vote/>
         <Event/>
         <Program />
         <Contact />
