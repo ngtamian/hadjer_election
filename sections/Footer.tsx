@@ -5,13 +5,14 @@ import { FaFacebook, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 const footerLinks = {
   navigation: [
     { href: '#accueil', label: 'Accueil' },
+    { href: '#event', label: 'Evenements Calendrier' },
     { href: '#apropos', label: 'À propos' },
     { href: '#programme', label: 'Programme' },
     { href: '#contact', label: 'Contact' },
   ],
   programme: [
     { href: '#', label: 'Environnement' },
-    { href: '#', label: 'Logement' },
+    { href: '#', label: 'Education' },
     { href: '#', label: 'Mobilité' },
     { href: '#', label: 'Solidarité' },
   ],

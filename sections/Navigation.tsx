@@ -5,9 +5,11 @@ import { Menu, X, Vote } from 'lucide-react';
 
 const navLinks = [
   { href: '#accueil', label: 'Accueil' },
+  { href: '#liste', label: 'Notre Liste' },
+  { href: '#event', label: 'Evenements Calendrier' },
   { href: '#apropos', label: 'À propos' },
   { href: '#programme', label: 'Programme' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#contact', label: 'Nous Contacter' },
 ];
 
 export function Navigation() {

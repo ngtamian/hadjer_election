@@ -11,21 +11,21 @@ const proposals = [
   },
   {
     icon: Home,
-    title: 'Logement',
+    title: 'Education',
     description: 'Politique du logement ambitieuse pour garantir à chacun un toit digne et abordable.',
     color: 'bg-orange-100 text-orange-700',
     items: ['Construction de logements sociaux', 'Réhabilitation du parc existant', 'Aide à l\'accession propriété']
   },
   {
     icon: Bus,
-    title: 'Mobilité',
+    title: 'Emploi et Formation',
     description: 'Amélioration des transports et des déplacements pour une commune accessible à tous.',
     color: 'bg-blue-100 text-blue-700',
     items: ['Renforcement des transports en commun', 'Création de parkings relais', 'Navettes électriques']
   },
   {
     icon: Users,
-    title: 'Solidarité',
+    title: 'Action Social et Solidaire',
     description: 'Renforcement des liens sociaux et accompagnement des plus vulnérables.',
     color: 'bg-pink-100 text-pink-700',
     items: ['Centre communal d\'action sociale', 'Accompagnement des seniors', 'Aide aux familles']

@@ -38,7 +38,7 @@ export function About() {
               <p className="text-xl italic text-slate-700 font-medium">
                 "L'avenir de notre commune se construit ensemble, avec la participation de chacun."
               </p>
-              <p className="mt-2 text-blue-600 font-semibold">— Kaltouma HADJE</p>
+              <p className="mt-2 text-blue-600 font-semibold">— Kaltouma HADJER</p>
             </div>
           </div>
 
