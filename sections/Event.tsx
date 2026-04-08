@@ -2,10 +2,10 @@
 
 export function Event() {
   const events = [
-    { date: "8 avril 2026", desc: "RDV à l’Île Noire" },
-    { date: "1er mai 2026", desc: "Intersyndical 1er mai - vers la grève sociale", link: true },
-    { date: "2 mai 2026", desc: "RDV à l’Île Noire" },
-    { date: "20 mai 2026", desc: "RDV à l’Union Française" },
+    { date: "Samedi 9 Mai 2026", desc: "Hotel Le Meridien Chari" },
+    { date: "Samedi 16 Mai 2026", desc: "Cafe Hermopolis | N'Djamena", link: true },
+    { date: "Samedi 23 Mai 2026", desc: "Institut français du TCHAD - N'Djamena" },
+    { date: "Dimanche le 24 Mai mai 2026", desc: "RDV à l’Union Française" },
   ];
 
   return (
@@ -26,7 +26,7 @@ export function Event() {
           {/* Bloc droit : liste des événements */}
           <div className="space-y-10">
             <h3 className="font-semibold tracking-widest uppercase text-sm text-gray-500">
-              Tchad
+              N'Djamèna - Tchad
             </h3>
 
             {events.map((event, index) => (

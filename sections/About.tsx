@@ -14,20 +14,20 @@ export function About() {
             Une équipe <span className="text-gradient">engagée</span> pour vous
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Découvrez les visages de notre candidature et notre vision commune pour l'avenir de la commune.
+            Découvrez les visages de notre candidature et notre vision commune pour l’avenir des Français au Tchad.
           </p>
         </div>
 
         {/* Candidats */}
         <div className="grid lg:grid-cols-2 gap-12 mb-20">
-          {/* Candidate Principale - Kaltouma HADJER */}
+          {/* Candidate Principale - Cathy HADJER */}
           <div className="bg-gradient-to-br from-blue-50 to-white rounded-3xl p-8 border border-blue-100 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="flex flex-col md:flex-row gap-6 items-start">
               <div className="relative shrink-0">
-                <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden border-4 border-blue-200 shadow-md">
+                <div className="w-32 h-34 md:w-40 md:h-40 rounded-2xl overflow-hidden border-4 border-blue-200 shadow-md">
                   <img 
-                    src="https://images.squarespace-cdn.com/content/v1/5ec689480cc22c2d441e152f/9cbf4e0b-926f-431b-b27a-11c5ac3bd8df/corporate-headshots-professional-photography-connecticut-ct-photo-studio-nlalor-what-to-wear-women.jpg" 
-                    alt="Kaltouma HADJER - Candidate principale"
+                    src="/cathya.jpg" 
+                    alt="Cathy HADJER - Candidate principale"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -37,30 +37,31 @@ export function About() {
               </div>
               
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-slate-800 mb-1">Kaltouma HADJER</h3>
+                <h3 className="text-2xl font-bold text-slate-800 mb-1">Cathy HADJER</h3>
                 <p className="text-blue-600 font-medium mb-4">Candidate principale</p>
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
-                    Née et raised dans notre belle commune, j'ai toujours été profondément attachée à notre territoire et à ses habitants. Après 15 ans d'engagement associatif et professionnel au service du public, j'ai décidé de me présenter pour apporter une vision moderne et dynamique.
+                    Ingénieure en informatique, forte de 13 années d’expérience dans la digitalisation des processus, le traitement des données massives, le Big Data et l’analyse avancée.
+                    Je m’engage aux côtés de la communauté française au Tchad. Profondément attachée à notre identité culturelle et à nos compatriotes, je consacre depuis plus de vingt ans mon énergie à la vie associative et politique.
                   </p>
                   <p className="leading-relaxed">
-                    Ma candidature est portée par une conviction forte : notre commune mérite une gouvernance à l'écoute, transparente et tournée vers l'avenir.
+                    Ma candidature s’appuie sur une conviction profonde : notre communauté mérite une représentation attentive, transparente et résolument engagée au service de l’ensemble des Français du Tchad.
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 text-sm">
+                <div className="grid grid-cols-2 gap-3 text-sm mt-10">
                   <div className="flex items-center gap-2 text-slate-700">
                     <MapPin className="w-4 h-4 text-blue-500" />
                     <span>Racines locales</span>
                   </div>
                   <div className="flex items-center gap-2 text-slate-700">
                     <GraduationCap className="w-4 h-4 text-blue-500" />
-                    <span>Sciences politiques</span>
+                    <span>Ingénieure Informatique</span>
                   </div>
                   <div className="flex items-center gap-2 text-slate-700">
                     <Briefcase className="w-4 h-4 text-blue-500" />
-                    <span>15 ans expérience</span>
+                    <span>13 ans expérience</span>
                   </div>
                   <div className="flex items-center gap-2 text-slate-700">
                     <Heart className="w-4 h-4 text-blue-500" />
@@ -71,14 +72,14 @@ export function About() {
             </div>
           </div>
 
-          {/* Suppléant - Ahmed BENALI */}
+          {/* Suppléant - Mathieu GBEKAN */}
           <div className="bg-gradient-to-br from-slate-50 to-white rounded-3xl p-8 border border-slate-200 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="flex flex-col md:flex-row gap-6 items-start">
               <div className="relative shrink-0">
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden border-4 border-slate-300 shadow-md">
                   <img 
-                    src="https://t3.ftcdn.net/jpg/06/16/55/08/360_F_616550819_rnEcH9vVVcep0dZgvAd3k8nn840uAueP.jpg" 
-                    alt="Ahmed BENALI - Suppléant"
+                    src="/Mathieuu.jpg" 
+                    alt="Mathieu GBEKAN - Suppléant"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -88,15 +89,15 @@ export function About() {
               </div>
               
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-slate-800 mb-1">Ahmed BENALI</h3>
+                <h3 className="text-2xl font-bold text-slate-800 mb-1">Mathieu GBEKAN</h3>
                 <p className="text-slate-500 font-medium mb-4">Candidat suppléant</p>
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
-                    Entrepreneur local et passionné par le développement économique territorial, je mets mon expertise au service de notre commune. Fort de 20 ans d'expérience dans la gestion d'entreprises et l'accompagnement des projets locaux.
+                    Expert en conception et mise en œuvre de projets d'investissements et de développement, avec plus de 30 années d’expérience dans la mobilisation de ressources, le financement international et le montage de partenariats public-privé. J’offre à ma communauté française au Tchad, mon entière disponibilité afin d’en assurer le dynamisme et le rayonnement.
                   </p>
                   <p className="leading-relaxed">
-                    Je partage pleinement la vision de Kaltouma : une commune innovante, solidaire et tournée vers l'avenir. Ensemble, nous formerons un binôme complémentaire au service de tous.
+                    Je souscris pleinement à la vision portée par Cathy, celle d’une communauté innovante, solidaire et résolument tournée vers l’avenir. Ensemble, nous constituons un binôme complémentaire, soudé par un engagement commun au service de tous les ressortissants français du Tchad.
                   </p>
                 </div>
 
@@ -111,7 +112,7 @@ export function About() {
                   </div>
                   <div className="flex items-center gap-2 text-slate-700">
                     <Users className="w-4 h-4 text-slate-500" />
-                    <span>20 ans expérience</span>
+                    <span>30 ans expérience</span>
                   </div>
                   <div className="flex items-center gap-2 text-slate-700">
                     <User className="w-4 h-4 text-slate-500" />
@@ -131,12 +132,12 @@ export function About() {
           <div className="relative z-10 text-center max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">Notre vision commune</h3>
             <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-8">
-              "L'avenir de notre commune se construit ensemble, avec la participation de chacun. Nous voulons bâtir une ville où innovation et tradition se rencontrent, où chaque citoyen trouve sa place et peut s'épanouir."
+              "Avec engagement, nous portons un projet social, solidaire et écologique pour les Français du Tchad, dans un esprit de paix et d’unité."
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm font-medium">
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Écoute</span>
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Transparence</span>
-              <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Innovation</span>
+              <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Écologique </span>
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Solidarité</span>
             </div>
           </div>

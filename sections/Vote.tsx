@@ -10,7 +10,7 @@ export function Vote() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium mb-4">
-            Élections 2026
+            Élections Consulaires 2026 - Tchad
           </span>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -63,11 +63,12 @@ export function Vote() {
                 </p>
               </div>
             </div>
-
+            <a  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R43248" target="_blank" >
             <button className="w-full mt-8 bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-lg flex items-center justify-center gap-2">
               S'inscrire pour voter
               <ArrowRight className="w-4 h-4" />
             </button>
+            </a>
           </div>
 
           {/* Colonne 2 */}
@@ -88,11 +89,12 @@ export function Vote() {
                 </div>
               ))}
             </div>
-
+            <a  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R51788" target="_blank" >
             <button className="w-full mt-12 bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-lg flex items-center justify-center gap-2">
               Suis-je inscrit·e ?
               <ArrowRight className="w-4 h-4" />
             </button>
+            </a>
           </div>
 
           {/* Colonne 3 */}
@@ -148,11 +150,13 @@ export function Vote() {
                 </div>
               </div>
             </div>
-
+            <a  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R51788" target="_blank" >
             <button className="w-full mt-8 bg-white text-gray-900 py-4 rounded-lg flex items-center justify-center gap-2">
-              Vérifier mes infos
+              Vérifier mes infos 
               <ArrowRight className="w-4 h-4" />
             </button>
+            </a>
+            
           </div>
 
         </div>

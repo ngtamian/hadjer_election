@@ -46,12 +46,12 @@ export function Footer() {
                 <Vote className="w-7 h-7 text-white" />
               </div>
               <div>
-                <p className="font-bold text-lg">Kaltouma HADJE</p>
+                <p className="font-bold text-lg">Cathy HADJER</p>
                 <p className="text-sm text-blue-400">Candidate 2026</p>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Ensemble, construisons l'avenir de notre commune. Une vision moderne, des projets concrets, une équipe passionnée.
+              Tous Ensemble, pour faire entendre notre voix. Une vision moderne, des projets concrets, une équipe passionnée.
             </p>
             <div className="flex gap-3">
               <a 
