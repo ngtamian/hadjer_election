@@ -40,8 +40,23 @@ export function Vote() {
                 <p className="text-gray-600">
                   <span className="font-bold text-gray-900">
                     Vendredi 24 avril 2026 :
-                  </span>{" "}
-                  inscription sur la liste électorale consulaire (Insrire sur le registre de Français établis au Tchad)
+                  </span>{" "} {" "}
+                </p>
+                
+                <p>
+
+                  <a className="underline " href="https://www.service-public.gouv.fr/particuliers/vosdroits/R43248" target="_blank" >
+                 la date limite pour s’inscrire sur la liste électorale consulaire (LEC)
+
+                  </a>
+                </p>
+                <br/>
+                <p>
+
+                  <a className="underline"  href="https://consulat.gouv.fr/ambassade-de-france-a-ndjamena/rendez-vous?fbclid=IwY2xjawRUo9NleHRuA2FlbQIxMABicmlkETAzSzlUUk42Um5wYm5HOVI0c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmcLoOuHIThF2udp-cverFUr9DX90jgFFHq63cdQ3ZmIstNMn3c5C48SF1dH_aem_sE-DiuHybyQC3oAj2R9pWg" target="_blank" >
+                  Pour une inscription au consulat, il suffit de prendre rendez-vous
+                  </a>
+                 
                 </p>
               </div>
 
@@ -50,7 +65,7 @@ export function Vote() {
                   <span className="font-bold text-gray-900">
                     22 → 27 mai :
                   </span>{" "}
-                  vote en ligne ouvert.
+                  vote en ligne ouvert
                 </p>
               </div>
 
@@ -59,7 +74,7 @@ export function Vote() {
                   <span className="font-bold text-gray-900">
                     30 mai 2026 :
                   </span>{" "}
-                  vote à l’urne ou procuration.
+                  vote à l’urne ou procuration
                 </p>
               </div>
             </div>
@@ -77,13 +92,13 @@ export function Vote() {
               3 conditions pour voter
             </h3>
 
-            <div className="space-y-6">
+            <div className="space-y-3">
               {[
                 "Détenir la nationalité française",
                 "Résider à l'étranger - Au Tchad",
-                "Être inscrit·e sur une liste électorale (S'insrire sur le registre de Français établis au Tchad)",
+                "Être inscrit·e sur une liste électorale ",
               ].map((text, i) => (
-                <div key={i} className="flex items-start gap-4">
+                <div key={i} className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-gray-900 mt-1" />
                   <p className="text-gray-700">{text}</p>
                 </div>
@@ -127,7 +142,9 @@ export function Vote() {
                 </div>
                 <div>
                   <h4 className="font-bold underline">
+                    <a  href="#contact" target="_blank" >
                     Vote par procuration
+                    </a>
                   </h4>
                   <p className="text-gray-400 text-sm">
                     Via une personne inscrite sur la même liste.
@@ -138,14 +155,17 @@ export function Vote() {
               {/* Internet */}
               <div className="flex gap-4">
                 <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
-                  <Monitor className="w-5 h-5 text-gray-300" />
+                  <Monitor className="w-5 h-5 ml-3 text-gray-300" />
                 </div>
                 <div>
                   <h4 className="font-bold underline">
-                    Vote en ligne
+                   
+                  <a  href="https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/vie-administrative-et-elections/modalites-de-vote/vote-par-internet" target="_blank" >
+                   Vote par internet
+                    </a>
                   </h4>
                   <p className="text-gray-400 text-sm">
-                    Du 22 au 27 mai 2026.
+                    ouvert du vendredi 22 mai à 12h00 (heure de Paris) au mercredi 27 mai 2026 à 12h00 (heure de Paris).
                   </p>
                 </div>
               </div>

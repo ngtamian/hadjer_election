@@ -81,14 +81,14 @@ export function Navigation() {
             </div>
 
             {/* CTA Button */}
-            <div className="hidden md:block">
+           {/*  <div className="hidden md:block">
               <Button 
                 className="bg-gradient-blue hover:opacity-90 text-white font-semibold rounded-xl"
               >
                 Je soutiens
               </Button>
             </div>
-
+ */}
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -127,11 +127,11 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-4 border-t border-slate-100">
+            {/* <div className="pt-4 border-t border-slate-100">
               <Button className="w-full bg-gradient-blue hover:opacity-90 text-white font-semibold rounded-xl py-6">
                 Je soutiens
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

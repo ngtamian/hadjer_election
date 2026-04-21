@@ -19,6 +19,7 @@ import { toast } from 'sonner';
 export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
+    firstName: '',
     email: '',
     subject: '',
     message: ''
@@ -27,7 +28,7 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast.success('Message envoyé avec succès ! Nous vous répondrons rapidement.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    setFormData({ name: '',firstName: '', email: '', subject: '', message: '' });
   };
 
   return (
@@ -86,13 +87,13 @@ export function Contact() {
               <h3 className="text-lg font-semibold text-slate-800 mb-4">Suivez-nous</h3>
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="https://www.facebook.com/TousUnisTchadFrance" 
                   className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white hover:bg-blue-700 transition-colors"
                 >
                   <FaFacebook className="w-6 h-6" />
                 </a>
                 <a 
-                  href="https://www.facebook.com/TousUnisTchadFrance/" 
+                  href="#" 
                   className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center text-white hover:opacity-90 transition-opacity"
                 >
                   <FaInstagram className="w-6 h-6" />
@@ -128,16 +129,28 @@ export function Contact() {
 
           {/* Contact Form */}
           <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">Envoyez-nous un message</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">Envoyez-nous un message ou une procuration</h3>
             <form onSubmit={handleSubmit} className="space-y-5">
-              <div className="grid sm:grid-cols-2 gap-5">
+              <div className="grid sm:grid-cols-1 gap-5">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Nom complet</Label>
+                  <Label htmlFor="name">Nom</Label>
                   <Input
                     id="name"
                     placeholder="Jean Dupont"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    required
+                    className="bg-white"
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="name">Prénom</Label>
+                  <Input
+                    id="name"
+                    placeholder="Jean Dupont"
+                    value={formData.firstName}
+                    onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                     required
                     className="bg-white"
                   />
@@ -183,10 +196,10 @@ export function Contact() {
 
               <Button 
                 type="submit" 
-                className="w-full bg-gradient-blue hover:opacity-90 text-white py-6 text-lg font-semibold rounded-xl"
+                className="w-full   text-white py-6 text-lg font-semibold rounded-xl"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Envoyer le message
+                Envoyer 
               </Button>
             </form>
           </div>
