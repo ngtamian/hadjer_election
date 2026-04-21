@@ -56,7 +56,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-800 mb-1">Siège de campagne</h3>
-                  <p className="text-slate-600">15 Rue de la République<br />75000 Paris</p>
+                  <p className="text-slate-600">N'Djamena-Tchad</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-800 mb-1">Téléphone</h3>
-                  <p className="text-slate-600">01 23 45 67 89</p>
+                  <p className="text-slate-600">+235 66 04 40 60</p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ export function Contact() {
                   <FaFacebook className="w-6 h-6" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.facebook.com/TousUnisTchadFrance/" 
                   className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center text-white hover:opacity-90 transition-opacity"
                 >
                   <FaInstagram className="w-6 h-6" />
@@ -157,10 +157,10 @@ export function Contact() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="subject">Sujet</Label>
+                <Label htmlFor="subject">Numéro NUMIC</Label>
                 <Input
                   id="subject"
-                  placeholder="Le sujet de votre message"
+                  placeholder="Votre Numéro d' identification Consulaire (NUMIC)"
                   value={formData.subject}
                   onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                   required
@@ -172,7 +172,7 @@ export function Contact() {
                 <Label htmlFor="message">Message</Label>
                 <Textarea
                   id="message"
-                  placeholder="Votre message..."
+                  placeholder="N'hésitez pas à nous envoyer vos messages ou questions directement ici..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required

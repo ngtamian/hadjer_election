@@ -2,48 +2,51 @@
 import { Leaf, Home, Bus, Users, Shield, Lightbulb } from 'lucide-react';
 
 const proposals = [
-  {
-    icon: Leaf,
-    title: 'Environnement',
-    description: 'Développement d\'espaces verts, transition écologique et préservation de notre patrimoine naturel.',
-    color: 'bg-green-100 text-green-700',
-    items: ['Création de jardins partagés', 'Développement des pistes cyclables', 'Programme de rénovation énergétique']
+
+   {
+    icon: Lightbulb,
+    title: 'SERVICE CONSULAIRE DE PROXIMITE MODERNE ET A VALEUR HUMAINE',
+    description: 'Le consulat doit être un service proche, accessible et efficace, et non une administration distante.',
+    color: 'bg-yellow-100 text-yellow-700',
+    items: ['Systématisation des tournées et permanences', 'Défense des guichets physiques et numérisation inclusive', 'Accompagnement personnalise']
   },
+  
   {
     icon: Home,
-    title: 'Education',
-    description: 'Politique du logement ambitieuse pour garantir à chacun un toit digne et abordable.',
+    title: 'ÉDUCATION INCLUSIVE, CULTURE PARTICIPATIVE ET RAYONNEMENT FRANÇAIS',
+    description: 'L’école française au Tchad est bien plus qu’un lieu d’enseignement : elle est un pilier de savoir, de mixité sociale, de transmission des valeurs et de dialogue avec la société tchadienne.',
     color: 'bg-orange-100 text-orange-700',
-    items: ['Construction de logements sociaux', 'Réhabilitation du parc existant', 'Aide à l\'accession propriété']
+    items: ['Défense de l’école française et amélioration des bourses', 'Amélioration du climat de confiance et de sérénité au lycée français Montaigne', 'Soutien aux associations FLAM et politique culturelle ouverte', 'Liens avec les acteurs locaux']
+  },
+  {
+    icon: Leaf,
+    title: 'SANTE, PROTECTION SOCIALE ET BIEN-ETRE',
+    description: 'Face aux démarches complexes et aux risques sanitaires, il est essentiel d’assurer un accès simple et humain aux droits pour tous les compatriotes, y compris au-delà des frontières.',
+    color: 'bg-green-100 text-green-700',
+    items: ['Information et lutte contre le non-recours', 'Défense d’un meilleur accès à la protection sociale', 'Accompagnement global du bien-être']
   },
   {
     icon: Bus,
-    title: 'Emploi et Formation',
-    description: 'Amélioration des transports et des déplacements pour une commune accessible à tous.',
+    title: 'EMPLOI, FORMATION PROFESSIONNELLE ET RAYONNEMENT ECONOMIQUE DE LA FRANCE',
+    description: 'Valoriser les compétences de la communauté française tout en développant des partenariats économiques locaux équitables et bénéfiques pour tous.',
     color: 'bg-blue-100 text-blue-700',
-    items: ['Renforcement des transports en commun', 'Création de parkings relais', 'Navettes électriques']
+    items: ['Soutien à l’emploi et à la formation', 'Renforcement de la présence économique française', 'Promotion de la formation professionnelle']
   },
   {
     icon: Users,
-    title: 'Action Social et Solidaire',
-    description: 'Renforcement des liens sociaux et accompagnement des plus vulnérables.',
+    title: 'COHESION SOCIALE, SOLIDARITE ET VIVRE-ENSEMBLE AU SEIN DE LA COMMUNAUTE FRANÇAISE',
+    description: 'Dans un contexte marqué par l’éloignement, le coût de la vie et des défis sécuritaires, il est essentiel de renforcer la cohésion des Français tout en valorisant leur diversité.',
     color: 'bg-pink-100 text-pink-700',
-    items: ['Centre communal d\'action sociale', 'Accompagnement des seniors', 'Aide aux familles']
+    items: ['Accompagnement des plus vulnérables', 'Lutte contre les violences et discriminations', 'Intégration des nouveaux arrivants et accompagnement spécifique des binationaux', 'Liens avec les acteurs locaux']
   },
   {
     icon: Shield,
-    title: 'Sécurité',
-    description: 'Préservation de la tranquillité publique et renforcement de la prévention.',
+    title: 'SECURITE, PROTECTION DES PERSONNES, APPUI AU DEPART ET ENGAGEMENT CITOYEN',
+    description: 'Assurer la protection de toutes et de tous, en promouvant une France écologique, pacifique et solidaire, pleinement engagée aux côtés du Tchad.',
     color: 'bg-purple-100 text-purple-700',
-    items: ['Éclairage public LED', 'Caméras de surveillance', 'Police municipale renforcée']
-  },
-  {
-    icon: Lightbulb,
-    title: 'Innovation',
-    description: 'Transformation numérique et modernisation des services publics.',
-    color: 'bg-yellow-100 text-yellow-700',
-    items: ['Mairie numérique', 'Wi-Fi public gratuit', 'Open data citoyenne']
+    items: ['Sécurité et rapatriement', 'Appui concret au départ', 'Actions associatives, sportives, humanitaires et culturelles', 'Vision écologique et promotion de la paix']
   }
+  
 ];
 
 export function Program() {

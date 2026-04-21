@@ -58,7 +58,7 @@ export function Navigation() {
                 <Vote className={`w-6 h-6 ${isScrolled ? 'text-white' : 'text-blue-700'}`} />
               </div>
               <div className={`hidden sm:block ${isScrolled ? 'text-slate-800' : 'text-slate-800'}`}>
-                <p className="font-bold text-sm leading-tight">Cathy HADJER</p>
+                <p className="font-bold text-sm leading-tight">Cathy HADJER & Mathieu GBEKAN</p>
                 <p className="text-xs text-blue-600 font-medium">Elections Consulaires
                   2026</p>
               </div>

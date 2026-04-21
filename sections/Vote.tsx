@@ -41,7 +41,7 @@ export function Vote() {
                   <span className="font-bold text-gray-900">
                     Vendredi 24 avril 2026 :
                   </span>{" "}
-                  inscription sur la liste électorale consulaire.
+                  inscription sur la liste électorale consulaire (Insrire sur le registre de Français établis au Tchad)
                 </p>
               </div>
 
@@ -80,8 +80,8 @@ export function Vote() {
             <div className="space-y-6">
               {[
                 "Détenir la nationalité française",
-                "Résider à l'étranger",
-                "Être inscrit·e sur une liste électorale",
+                "Résider à l'étranger - Au Tchad",
+                "Être inscrit·e sur une liste électorale (S'insrire sur le registre de Français établis au Tchad)",
               ].map((text, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-gray-900 mt-1" />
