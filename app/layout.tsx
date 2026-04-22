@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Engagement • Social",
+  title: "Engagement • Solidaire",
   description: "By Hadjer Cathy",
 };
 
