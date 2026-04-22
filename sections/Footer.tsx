@@ -21,7 +21,7 @@ export function Footer() {
           <div className="flex flex-col items-center text-center max-w-xl">
             
             {/* Texte */}
-            <p className="text-3xl md:text-4xl text-gray-600 leading-relaxed">
+            <p className="text-3xl md:text-4xl text-gray-600 leading-relaxed font-semibold">
              Engagement • Social • Solidaire • Écologique • Et pour la paix
             </p>
           </div>
@@ -37,7 +37,7 @@ export function Footer() {
         </div>
 
         {/* Bas de footer (optionnel pro) */}
-        <div className="mt-12 text-center text-xs text-gray-400">
+        <div className="mt-12 text-center text-xs text-black font-bold">
           © {new Date().getFullYear()} Cathy HADJER — Tous droits réservés
         </div>
 

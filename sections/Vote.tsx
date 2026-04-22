@@ -123,9 +123,9 @@ export function Vote() {
               
               {/* Urne */}
               <div className="flex gap-4">
-                <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
+                {/* <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
                   <CheckCircle className="w-5 h-5 text-gray-300" />
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-bold underline">
                     Vote à l'urne
@@ -138,9 +138,9 @@ export function Vote() {
 
               {/* Procuration */}
               <div className="flex gap-4">
-                <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
+               {/*  <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
                   <FileText className="w-5 h-5 text-gray-300" />
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-bold underline">
                     <a  href="#contact" target="_blank" >
@@ -155,9 +155,9 @@ export function Vote() {
 
               {/* Internet */}
               <div className="flex gap-4">
-                <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
+                {/* <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center">
                   <Monitor className="w-5 h-5 ml-3 text-gray-300" />
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-bold underline">
                    

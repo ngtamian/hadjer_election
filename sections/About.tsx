@@ -40,7 +40,7 @@ export function About() {
               
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-slate-800 mb-1">Cathy HADJER</h3>
-                <p className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent font-medium mb-4">Candidate principale</p>
+                {/* <p className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent font-medium mb-4">Candidate principale</p> */}
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
@@ -92,7 +92,7 @@ export function About() {
               
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-slate-800 mb-1">Mathieu GBEKAN</h3>
-                <p className="text-black font-bold mb-4">Candidat suppléant</p>
+                {/* <p className="text-black font-bold mb-4">Candidat suppléant</p> */}
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
@@ -127,7 +127,7 @@ export function About() {
         </div>
 
         {/* Vision commune */}
-        <div className="bg-gradient-to-r from-purple-700 via-fuchsia-600 to-red-500 text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+        <div className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white rounded-3xl p-8 md:p-12 shadow-2xl">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
           <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-700 rounded-full blur-3xl opacity-50 translate-y-1/2 -translate-x-1/2"></div>
           
