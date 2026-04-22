@@ -9,9 +9,9 @@ export function Vote() {
         
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium mb-4">
-            Élections Consulaires 2026 - Tchad
-          </span>
+          <span className="inline-block px-4 py-1 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white rounded-full text-base sm:text-lg font-medium mb-4">
+  Élections Consulaires 2026 - Tchad
+</span>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Comment voter aux{" "}
@@ -21,8 +21,8 @@ export function Vote() {
             ?
           </h2>
 
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Tout savoir sur ces élections dédiées à la communauté française.
+         <p className="text-lg font-semibold text-gray-600 max-w-2xl mx-auto">
+          Tout savoir sur ces élections dédiées à la communauté française.
           </p>
         </div>
 

@@ -15,10 +15,10 @@ export function Event() {
           
           {/* Bloc gauche : titre */}
           <div className="relative">
-            <div className="bg-white border border-gray-300 rounded-3xl p-12 flex items-center justify-center shadow-lg">
-              <h2 className="text-3xl sm:text-4xl font-bold text-center leading-tight tracking-wide">
-                ÉVÈNEMENTS <br />
-                <span className="text-gray-500">CALENDRIER</span>
+           <div className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] rounded-3xl p-12 flex items-center justify-center shadow-lg">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center leading-tight tracking-wide text-white">
+               ÉVÈNEMENTS <br />
+              CALENDRIER
               </h2>
             </div>
           </div>

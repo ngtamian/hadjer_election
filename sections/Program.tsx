@@ -55,9 +55,9 @@ export function Program() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">
-            Notre Programme
-          </span>
+          <span className="inline-block px-4 py-1 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white rounded-full text-lg sm:text-xl font-medium mb-4">
+  Notre Programme
+</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 mb-4">
             Des projets <span className="text-gradient">concrets</span> pour tous
           </h2>

@@ -15,7 +15,7 @@ export function About() {
            Une équipe engagée pour vous
            </span>
         </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg font-bold text-slate-700">
             Découvrez les visages de notre candidature et notre vision commune pour l’avenir des Français au Tchad.
           </p>
         </div>
@@ -33,14 +33,14 @@ export function About() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-3 -right-3 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                <div className="absolute -bottom-3 -right-3 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
                   Titulaire
                 </div>
               </div>
               
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-slate-800 mb-1">Cathy HADJER</h3>
-                <p className="text-blue-600 font-medium mb-4">Candidate principale</p>
+                <p className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent font-medium mb-4">Candidate principale</p>
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
@@ -53,20 +53,20 @@ export function About() {
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 text-sm mt-10">
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <MapPin className="w-4 h-4 text-blue-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <MapPin className="w-4 h-4 text-[#C026D3]" />
                     <span>Racines locales</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <GraduationCap className="w-4 h-4 text-blue-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <GraduationCap className="w-4 h-4 text-[#C026D3]" />
                     <span>Ingénieure Informatique</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <Briefcase className="w-4 h-4 text-blue-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <Briefcase className="w-4 h-4 text-[#C026D3]" />
                     <span>13 ans expérience</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <Heart className="w-4 h-4 text-blue-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <Heart className="w-4 h-4 text-[#C026D3]"/>
                     <span>Engagement associatif</span>
                   </div>
                 </div>
@@ -85,14 +85,14 @@ export function About() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-3 -right-3 bg-slate-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                <div className="absolute -bottom-3 -right-3 bg-black text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
                   Suppléant
                 </div>
               </div>
               
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-slate-800 mb-1">Mathieu GBEKAN</h3>
-                <p className="text-slate-500 font-medium mb-4">Candidat suppléant</p>
+                <p className="text-black font-bold mb-4">Candidat suppléant</p>
                 
                 <div className="prose prose-sm text-slate-600 mb-4">
                   <p className="leading-relaxed">
@@ -104,20 +104,20 @@ export function About() {
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 text-sm">
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <Target className="w-4 h-4 text-slate-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <Target className="w-4 h-4 text-[#C026D3]" />
                     <span>Entrepreneur</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <Award className="w-4 h-4 text-slate-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <Award className="w-4 h-4 text-[#C026D3]" />
                     <span>Expertise économique</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <Users className="w-4 h-4 text-slate-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <Users className="w-4 h-4 text-[#C026D3]" />
                     <span>30 ans expérience</span>
                   </div>
-                  <div className="flex items-center gap-2 text-slate-700">
-                    <User className="w-4 h-4 text-slate-500" />
+                  <div className="flex items-center gap-2 text-slate-700 font-bold">
+                    <User className="w-4 h-4 text-[#C026D3]" />
                     <span>Accompagnement projets</span>
                   </div>
                 </div>

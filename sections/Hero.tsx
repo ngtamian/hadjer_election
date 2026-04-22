@@ -17,7 +17,7 @@ export function Hero() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Content */}
             <div className="space-y-8 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+              <div className="inline-flex items-center gap-2 px-5 py-3 bg-white rounded-full text-base sm:text-lg font-bold border border-black/20 text-transparent bg-clip-text bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6]">
                 <Vote className="w-4 h-4" />
                 <span>Election des Conseillers des Français de l'étranger 2026 - Tchad</span>
               </div>
@@ -31,47 +31,52 @@ export function Hero() {
                   <span className="text-slate-800">notre voix</span>
                 </h1>
                 
-                <p className="text-lg sm:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0">
-                  Une vision moderne, des actions concrètes, une équipe engagée pour les Français du Tchad.
-                </p>
+                <p className="text-lg sm:text-xl font-semibold text-slate-600 max-w-xl mx-auto lg:mx-0">
+            Une vision moderne, des actions concrètes, une équipe engagée pour les Français du Tchad.
+              </p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a  href="#programme" target="_blank" >
-              <Button 
-                  size="lg" 
-                  className="text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg shadow-blue-500/25 "
-                >
-                  Découvrir mon programme
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
+              <Button
+          size="lg"
+            className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg shadow-[#C026D3]/30 hover:opacity-90 transition-all"
+          >
+          Découvrir mon programme
+         <ArrowRight className="ml-2 w-5 h-5" />
+          </Button>
             </a>
                 <a  href="https://actionpopulaire.fr/" target="_blank" >
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-2 border-blue-600 text-blue-700 hover:bg-blue-50 px-8 py-6 text-lg font-semibold rounded-xl transition-all"
-                >
-                  
-                  <Heart className="mr-2 w-5 h-5" />
-                  Soutenir la campagne
-                </Button>
+                <Button
+          variant="outline"
+            size="lg"
+          className="border-2 border-gray-300 text-transparent bg-clip-text bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] hover:bg-gray-50 px-8 py-6 text-xl font-semibold rounded-xl transition-all"
+          >
+          <Heart className="mr-2 w-5 h-5 text-[#C026D3]" />
+            Soutenir la campagne
+            </Button>
                  </a>
               </div>
               
               {/* Stats */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-8 pt-8">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-700">15+</div>
-                  <div className="text-sm text-slate-500">Années d'engagement citoyen</div>
-                </div>
+               <div className="text-center">
+              <div className="text-3xl font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">
+                 +15
+                  </div>
+             <div className="text-base sm:text-lg font-bold text-slate-700">
+               Années d'engagement citoyen
+             </div>
+            </div>
                 {/* <div className="text-center">
                   <div className="text-3xl font-bold text-blue-700">50+</div>
                   <div className="text-sm text-slate-500">Projets réalisés</div>
                 </div> */}
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-700">100%</div>
-                  <div className="text-sm text-slate-500">À l'écoute des  de nos concitoyens</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">
+                 100%
+                  </div>
+                  <div className="text-base sm:text-lg font-bold text-slate-700">À l'écoute des  de nos concitoyens</div>
                 </div>
               </div>
             </div>
@@ -99,7 +104,7 @@ export function Hero() {
                   {/* Name Badge */}
                   <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white px-6 py-3 rounded-xl shadow-lg">
                     <p className="text-lg font-bold text-slate-800">Cathy HADJER</p>
-                    <p className="text-sm text-blue-600 font-medium">Candidate Conseillière</p>
+                    <p className="text-sm font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">Candidate Conseillière</p>
                   </div>
                 </div>
               </div>
