@@ -56,8 +56,8 @@ export function Program() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white rounded-full text-lg sm:text-xl font-medium mb-4">
-  Notre Programme
-</span>
+        Notre Programme
+          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 mb-4">
             Des projets <span className="text-gradient">concrets</span> pour tous
           </h2>
@@ -79,18 +79,18 @@ export function Program() {
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-bold text-slate-800 mb-3">
+              <h3 className="text-xl font-extrabold mb-3 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">
                 {proposal.title}
               </h3>
-              <p className="text-slate-600 mb-5 leading-relaxed">
+              <p className="text-slate-600 mb-5 leading-relaxed font-bold">
                 {proposal.description}
               </p>
 
               {/* Items List */}
               <ul className="space-y-2">
                 {proposal.items.map((item, itemIndex) => (
-                  <li key={itemIndex} className="flex items-start gap-2 text-sm text-slate-700">
-                    <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0" />
+                  <li key={itemIndex} className="flex items-start gap-2 text-sm font-semibold text-slate-700">
+                    <span className="w-2 h-2 rounded-full bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] mt-2 flex-shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}

@@ -59,7 +59,7 @@ export function Navigation() {
               </div>
               <div className={`hidden sm:block ${isScrolled ? 'text-slate-800' : 'text-slate-800'}`}>
                 <p className="font-bold text-sm leading-tight">Cathy HADJER & Mathieu GBEKAN</p>
-                <p className="text-xs text-blue-600 font-medium">Elections Consulaires
+                <p className="text-xs text-black font-bold">Elections Consulaires
                   2026</p>
               </div>
             </a>

@@ -25,26 +25,27 @@ export function Event() {
 
           {/* Bloc droit : liste des événements */}
           <div className="space-y-10">
-            <h3 className="font-semibold tracking-widest uppercase text-sm text-gray-500">
+            <h3 className="font-bold tracking-widest uppercase text-sm text-black">
               N'Djamèna - Tchad
             </h3>
 
-            {events.map((event, index) => (
-              <div
-                key={index}
-                className="group border-b border-gray-200 pb-6 transition hover:border-gray-400"
-              >
-                <p className="text-xl font-semibold text-gray-900 group-hover:text-gray-700 transition underline underline-offset-4 decoration-gray-300">
-                  {event.date}
-                </p>
-                <p
-                  className={`mt-2 text-sm ${
-                    event.link
-                      ? "text-gray-500 underline hover:text-gray-900 cursor-pointer"
-                      : "text-gray-600"
-                  }`}
-                >
-                  {event.desc}
+           {events.map((event, index) => (
+          <div
+           key={index}
+           className="group border-b border-gray-200 pb-6 transition hover:border-gray-400"
+        >
+            <p className="text-xl font-semibold text-gray-900 group-hover:text-gray-700 transition underline underline-offset-4 decoration-gray-300">
+      {event.date}
+        </p>
+
+        <p
+      className={`mt-2 text-sm font-bold text-black ${
+        event.link
+          ? "underline hover:text-gray-800 cursor-pointer"
+          : ""
+      }`}
+    >
+      {event.desc}
                 </p>
               </div>
             ))}

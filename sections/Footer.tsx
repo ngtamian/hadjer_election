@@ -37,7 +37,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -49,10 +49,10 @@ export function Footer() {
               </div>
               <div>
                 <p className="font-bold text-lg">Cathy HADJER</p>
-                <p className="text-sm text-blue-400">Candidate 2026</p>
+                <p className="text-white font-bold text-sm">Candidate 2026</p>
               </div>
             </div>
-            <p className="text-slate-400 text-sm leading-relaxed mb-6">
+            <p className="text-white text-sm leading-relaxed mb-6">
               Tous Ensemble, pour faire entendre notre voix. Une vision moderne, des projets concrets, une équipe passionnée.
             </p>
             <div className="flex gap-3">
@@ -92,7 +92,7 @@ export function Footer() {
                   <a 
                     href={link.href}
                     onClick={(e) => handleLinkClick(e, link.href)}
-                    className="text-slate-400 hover:text-white transition-colors"
+                    className="text-white text-base sm:text-lg font-semibold hover:text-white/80 transition"
                   >
                     {link.label}
                   </a>
@@ -109,7 +109,7 @@ export function Footer() {
                 <li key={index}>
                   <a 
                     href={link.href}
-                    className="text-slate-400 hover:text-white transition-colors"
+                    className="text-white text-base sm:text-lg font-semibold hover:text-white/80 transition"
                   >
                     {link.label}
                   </a>
@@ -121,18 +121,17 @@ export function Footer() {
           {/* Newsletter */}
           <div>
             <h3 className="font-semibold text-lg mb-6">Newsletter</h3>
-            <p className="text-slate-400 text-sm mb-4">
+            <p className="text-white font-bold text-sm mb-4">
               Recevez nos actualités et invitations aux événements.
             </p>
             <form className="space-y-3">
               <input
                 type="email"
                 placeholder="Votre email"
-                className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
-              />
+                 className="w-full px-4 py-3 bg-white border border-gray-300 rounded-xl text-black placeholder-black focus:outline-none focus:border-[#C026D3] transition-colors"              />
               <button
                 type="submit"
-                className="w-full px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
+                className="w-full px-4 py-3 bg-white hover:bg-gray-100 text-black font-semibold rounded-xl transition-colors border border-gray-300"
               >
                 S'inscrire
               </button>
@@ -146,20 +145,20 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-slate-500 text-sm flex items-center gap-1">
-              Fait avec <Heart className="w-4 h-4 text-red-500 fill-red-500" /> pour notre commune
+             {/* Fait avec <Heart className="w-4 h-4 text-red-500 fill-red-500" /> pour notre communauté Française*/}
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               {footerLinks.legal.map((link, index) => (
                 <a 
                   key={index}
                   href={link.href}
-                  className="text-slate-500 hover:text-slate-300 text-sm transition-colors"
+                  className="text-white text-base sm:text-lg font-semibold hover:text-white/80 transition"
                 >
                   {link.label}
                 </a>
               ))}
             </div>
-            <p className="text-slate-600 text-sm">
+            <p className="text-white font-bold text-sm">
               © 2026 - Tous droits réservés
             </p>
           </div>

@@ -67,7 +67,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-800 mb-1">Email</h3>
-                  <p className="text-slate-600">contact@mariedupont2026.fr</p>
+                  <p className="text-slate-600">A Venir</p>
                 </div>
               </div>
 
