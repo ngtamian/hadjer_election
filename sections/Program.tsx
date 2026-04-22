@@ -1,5 +1,5 @@
 "use client"
-import { Leaf, Home, Bus, Users, Shield, Lightbulb } from 'lucide-react';
+import { Leaf, Home, Bus, Users, Shield, Lightbulb,Download } from 'lucide-react';
 
 const proposals = [
 
@@ -102,13 +102,22 @@ export function Program() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-white p-6 rounded-2xl shadow-lg border border-slate-100">
-            <div className="text-left">
+           {/*  <div className="text-left">
               <p className="font-semibold text-slate-800">Téléchargez le programme complet</p>
               <p className="text-sm text-slate-600">Consultez tous nos projets en détail</p>
-            </div>
-            <button className="px-6 py-3 bg-gradient-blue text-white font-semibold rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap">
+            </div> */}
+           {/*  <button className="px-6 py-3 bg-gradient-blue text-white font-semibold rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap">
               Télécharger le PDF
-            </button>
+            </button> */}
+            <br/>
+            <a
+                href="/program.pdf"
+                target="_blank"
+                className="inline-flex items-center justify-center space-x-2 bg-[#F472B6] hover:bg-[#F472B6]/90 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105"
+              >
+                <Download className="w-5 h-5" />
+                <span className="text-sm"> Téléchargez le programme complet</span>
+              </a>
           </div>
         </div>
       </div>

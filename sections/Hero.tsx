@@ -14,15 +14,16 @@ export function Hero() {
       
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 py-20">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
             {/* Left Content */}
-            <div className="space-y-8 text-center lg:text-left">
+            <div className="space-y-8 text-center lg:text-left  bg-[url('/carte3.png')] bg-cover bg-center ">
               <div className="inline-flex items-center gap-2 px-5 py-3 bg-white rounded-full text-base sm:text-lg font-bold border border-black/20 text-transparent bg-clip-text bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6]">
                 <Vote className="w-4 h-4" />
                 <span>Election des Conseillers des Français de l'étranger 2026 - Tchad</span>
               </div>
               
-              <div className="space-y-4">
+              <div className="space-y-4 
+               p-8 rounded-xl">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                   <span className="text-slate-800">Tous Ensemble,</span>
                   <br />
