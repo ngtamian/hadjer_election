@@ -31,7 +31,7 @@ export function Vote() {
           
           {/* Colonne 1 */}
           <div className="bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition-shadow">
-            <h3 className="text-lg font-bold text-gray-900 uppercase text-center mb-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent whitespace-nowrap">
               Dates importantes
             </h3>
 
@@ -79,7 +79,7 @@ export function Vote() {
               </div>
             </div>
             <a  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R43248" target="_blank" >
-            <button className="w-full mt-8 bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-lg flex items-center justify-center gap-2">
+            <button className="w-full mt-12 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] hover:opacity-90 text-white text-lg md:text-xl py-4 rounded-lg flex items-center justify-center gap-2 transition whitespace-nowrap">
               S'inscrire pour voter
               <ArrowRight className="w-4 h-4" />
             </button>
@@ -88,8 +88,9 @@ export function Vote() {
 
           {/* Colonne 2 */}
           <div className="bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition-shadow">
-            <h3 className="text-lg font-bold text-center mb-6">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent whitespace-nowrap">
               3 conditions pour voter
+
             </h3>
 
             <div className="space-y-3">
@@ -105,15 +106,15 @@ export function Vote() {
               ))}
             </div>
             <a  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R51788" target="_blank" >
-            <button className="w-full mt-12 bg-gray-900 hover:bg-gray-800 text-white py-4 rounded-lg flex items-center justify-center gap-2">
+           <button className="w-full mt-12 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] hover:opacity-90 text-white text-lg md:text-xl py-4 rounded-lg flex items-center justify-center gap-2 transition whitespace-nowrap">
               Suis-je inscrit·e ?
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-5 h-5" />
             </button>
             </a>
           </div>
 
           {/* Colonne 3 */}
-          <div className="bg-gray-900 rounded-2xl p-8 text-white">
+        <div className="bg-gradient-to-r from-[#4C1D95] via-[#A21CAF] to-[#F472B6] rounded-2xl p-8 text-white">
             <h3 className="text-lg font-bold text-center mb-8">
               3 façons de voter
             </h3>
@@ -129,7 +130,7 @@ export function Vote() {
                   <h4 className="font-bold underline">
                     Vote à l'urne
                   </h4>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-white/90 text-sm">
                     Lieux et horaires communiqués par le consulat.
                   </p>
                 </div>
@@ -146,7 +147,7 @@ export function Vote() {
                     Vote par procuration
                     </a>
                   </h4>
-                  <p className="text-gray-400 text-sm">
+                   <p className="text-white text-sm drop-shadow">
                     Via une personne inscrite sur la même liste.
                   </p>
                 </div>
@@ -164,7 +165,7 @@ export function Vote() {
                    Vote par internet
                     </a>
                   </h4>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-white text-sm drop-shadow">
                     ouvert du vendredi 22 mai à 12h00 (heure de Paris) au mercredi 27 mai 2026 à 12h00 (heure de Paris).
                   </p>
                 </div>

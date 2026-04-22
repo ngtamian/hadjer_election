@@ -11,10 +11,12 @@ const footerLinks = {
     { href: '#contact', label: 'Contact' },
   ],
   programme: [
-    { href: '#', label: 'Environnement' },
+    { href: '#', label: 'Service Consulaire' },
     { href: '#', label: 'Education' },
-    { href: '#', label: 'Mobilité' },
-    { href: '#', label: 'Solidarité' },
+    { href: '#', label: 'Santé' },
+    { href: '#', label: 'Emploi, Formation' },
+    { href: '#', label: 'Cohesion Social' },
+    { href: '#', label: 'Sécurité' },
   ],
   legal: [
     { href: '#', label: 'Mentions légales' },

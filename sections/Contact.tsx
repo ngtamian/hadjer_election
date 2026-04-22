@@ -87,7 +87,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold text-slate-800 mb-4">Suivez-nous</h3>
               <div className="flex gap-4">
                 <a 
-                  href="https://www.facebook.com/TousUnisTchadFrance" 
+                  href="https://www.facebook.com/TousUnisTchadFrance" target="_blank"
                   className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white hover:bg-blue-700 transition-colors"
                 >
                   <FaFacebook className="w-6 h-6" />
