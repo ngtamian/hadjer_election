@@ -84,7 +84,7 @@ export function Footer() {
           </div>
 
           {/* Navigation */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg mb-6">Navigation</h3>
             <ul className="space-y-3">
               {footerLinks.navigation.map((link) => (
@@ -99,10 +99,10 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Programme */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg mb-6">Programme</h3>
             <ul className="space-y-3">
               {footerLinks.programme.map((link, index) => (
@@ -116,10 +116,10 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Newsletter */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg mb-6">Newsletter</h3>
             <p className="text-white font-bold text-sm mb-4">
               Recevez nos actualités et invitations aux événements.
@@ -136,7 +136,7 @@ export function Footer() {
                 S'inscrire
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
 
