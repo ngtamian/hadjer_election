@@ -13,9 +13,9 @@ export function Vote() {
   Élections Consulaires 2026 - Tchad
 </span>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-4">
             Comment voter aux{" "}
-            <span className="text-gray-600">
+            <span className="text-black">
               élections consulaires
             </span>{" "}
             ?
