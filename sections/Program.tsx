@@ -8,7 +8,7 @@ const proposals = [
     title: 'SERVICE CONSULAIRE DE PROXIMITE MODERNE ET A VALEUR HUMAINE',
     description: 'Le consulat doit être un service proche, accessible et efficace, et non une administration distante.',
     color: 'bg-yellow-100 text-yellow-700',
-    items: ['Systématisation des tournées et permanences', 'Défense des guichets physiques et numérisation inclusive', 'Accompagnement personnalise']
+    items: ['Systématiser des tournées et permanences', 'Défendre les guichets physiques tout en développant une numérisation inclusive', 'Renforcer l’accompagnement personnalisé des usagers']
   },
   
   {
@@ -16,35 +16,35 @@ const proposals = [
     title: 'ÉDUCATION INCLUSIVE, CULTURE PARTICIPATIVE ET RAYONNEMENT FRANÇAIS',
     description: 'L’école française au Tchad est bien plus qu’un lieu d’enseignement : elle est un pilier de savoir, de mixité sociale, de transmission des valeurs et de dialogue avec la société tchadienne.',
     color: 'bg-orange-100 text-orange-700',
-    items: ['Défense de l’école française et amélioration des bourses', 'Amélioration du climat de confiance et de sérénité au lycée français Montaigne', 'Soutien aux associations FLAM et politique culturelle ouverte', 'Liens avec les acteurs locaux']
+    items: ['Défendre l’école française et améliorer le dispositif des bourses', 'Améliorer le climat de confiance et de sérénité au Lycée Français Montaigne', 'Soutenir les associations FLAM et développer une politique culturelle ouverte', 'Renforcer les liens avec les acteurs locaux afin de favoriser les échanges éducatifs et culturels avec la société tchadienne']
   },
   {
     icon: Leaf,
     title: 'SANTE, PROTECTION SOCIALE ET BIEN-ETRE',
     description: 'Face aux démarches complexes et aux risques sanitaires, il est essentiel d’assurer un accès simple et humain aux droits pour tous les compatriotes, y compris au-delà des frontières.',
     color: 'bg-green-100 text-green-700',
-    items: ['Information et lutte contre le non-recours', 'Défense d’un meilleur accès à la protection sociale', 'Accompagnement global du bien-être']
+    items: ['Informer et lutter contre le non-recours aux droits et dispositifs existants', 'Défendre un meilleur accès à la protection sociale pour tous les Français de l’étranger', 'Accompagner globalement le bien-être des compatriotes, notamment sur les plans social et sanitaire']
   },
   {
     icon: Bus,
     title: 'EMPLOI, FORMATION PROFESSIONNELLE ET RAYONNEMENT ECONOMIQUE DE LA FRANCE',
     description: 'Valoriser les compétences de la communauté française tout en développant des partenariats économiques locaux équitables et bénéfiques pour tous.',
     color: 'bg-blue-100 text-blue-700',
-    items: ['Soutien à l’emploi et à la formation', 'Renforcement de la présence économique française', 'Promotion de la formation professionnelle']
+    items: ['Soutenir l’emploi et développer l’accès à la formation', 'Renforcer la présence économique française dans un esprit de coopération équilibrée', 'Promouvoir la formation professionnelle et l’acquisition de compétences adaptées aux besoins locaux et internationaux']
   },
   {
     icon: Users,
     title: 'COHESION SOCIALE, SOLIDARITE ET VIVRE-ENSEMBLE AU SEIN DE LA COMMUNAUTE FRANÇAISE',
     description: 'Dans un contexte marqué par l’éloignement, le coût de la vie et des défis sécuritaires, il est essentiel de renforcer la cohésion des Français tout en valorisant leur diversité.',
     color: 'bg-pink-100 text-pink-700',
-    items: ['Accompagnement des plus vulnérables', 'Lutte contre les violences et discriminations', 'Intégration des nouveaux arrivants et accompagnement spécifique des binationaux', 'Liens avec les acteurs locaux']
+    items: ['Accompagner les plus vulnérables afin de garantir leur protection et leur inclusion', 'Lutter contre les violences et les discriminations sous toutes leurs formes', 'Intégrer les nouveaux arrivants et accompagner spécifiquement les binationaux', 'Renforcer les liens avec les acteurs locaux afin de favoriser la coopération et l’entraide sur le territoire']
   },
   {
     icon: Shield,
     title: 'SECURITE, PROTECTION DES PERSONNES, APPUI AU DEPART ET ENGAGEMENT CITOYEN',
     description: 'Assurer la protection de toutes et de tous, en promouvant une France écologique, pacifique et solidaire, pleinement engagée aux côtés du Tchad.',
     color: 'bg-purple-100 text-purple-700',
-    items: ['Sécurité et rapatriement', 'Appui concret au départ', 'Actions associatives, sportives, humanitaires et culturelles', 'Vision écologique et promotion de la paix']
+    items: ['Renforcer la sécurité et organiser les dispositifs de rapatriement', 'Faciliter l’appui concret au départ et l’accompagnement des situations d’urgence', 'Soutenir les actions associatives, sportives, humanitaires et culturelles', 'Promouvoir une vision écologique et encourager la paix et la solidarité internationale']
   }
   
 ];

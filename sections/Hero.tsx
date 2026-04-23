@@ -32,8 +32,8 @@ export function Hero() {
                   <span className="text-slate-800">notre voix</span>
                 </h1>
                 
-                <p className="text-lg sm:text-xl font-semibold text-slate-600 max-w-xl mx-auto lg:mx-0">
-            Une vision moderne, des actions concrètes, une équipe engagée pour les Français du Tchad.
+                <p className="text-lg sm:text-xl font-bold text-black max-w-xl mx-auto lg:mx-0">
+            Une vision moderne, des actions concrètes, une équipe engagée pour les Français du Tchad
               </p>
               </div>
               
