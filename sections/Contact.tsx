@@ -96,48 +96,14 @@ export function Contact() {
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="pt-6 border-t border-slate-200">
-              <h3 className="text-lg font-semibold text-slate-800 mb-4">Suivez-nous</h3>
-              <div className="flex gap-4">
-                <a 
-                  href="https://www.facebook.com/TousUnisTchadFrance" target="_blank"
-                  className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white hover:bg-blue-700 transition-colors"
-                >
-                  <FaFacebook className="w-6 h-6" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center text-white hover:opacity-90 transition-opacity"
-                >
-                  <FaInstagram className="w-6 h-6" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-sky-500 rounded-xl flex items-center justify-center text-white hover:bg-sky-600 transition-colors"
-                >
-                  <FaXTwitter className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
+           
 
             {/* Opening Hours */}
-            <div className="bg-blue-50 p-6 rounded-2xl">
-              <h3 className="text-lg font-semibold text-slate-800 mb-3">Horaires d'ouverture</h3>
-              <div className="space-y-2 text-slate-600">
-                <div className="flex justify-between">
-                  <span>Lundi - Vendredi</span>
-                  <span className="font-medium">9h - 18h</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Samedi</span>
-                  <span className="font-medium">10h - 14h</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Dimanche</span>
-                  <span className="font-medium">Fermé</span>
-                </div>
-              </div>
+            <div className=" p-6 rounded-2xl">
+               <img
+                src="/carte3.png"
+                className="h-60 md:h-64 w-auto object-contain"
+              />
             </div>
           </div>
 
