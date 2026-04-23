@@ -25,11 +25,25 @@ export function Contact() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast.success('Message envoyé avec succès ! Nous vous répondrons rapidement.');
-    setFormData({ name: '',firstName: '', email: '', subject: '', message: '' });
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+    if (res.ok) {
+      toast.success('Message envoyé avec succès !');
+      setFormData({ name: '', firstName: '', email: '', subject: '', message: '' });
+    } else {
+      throw new Error();
+    }
+  } catch (error) {
+    toast.error("Erreur lors de l'envoi");
+  }
+};
 
   return (
     <section id="contact" className="py-24 bg-white">
