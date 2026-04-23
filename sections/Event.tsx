@@ -2,10 +2,10 @@
 
 export function Event() {
   const events = [
-    { date: "Samedi 9 Mai 2026", desc: "Hotel Le Meridien Chari" },
-    { date: "Samedi 16 Mai 2026", desc: "Cafe Hermopolis | N'Djamena", link: true },
-    { date: "Samedi 23 Mai 2026", desc: "Institut français du TCHAD - N'Djamena" },
-    { date: "Dimanche le 24 Mai mai 2026", desc: "RDV à l’Union Française" },
+    { date: "Samedi 9 Mai 2026", desc: "A Venir" },
+    { date: "Samedi 16 Mai 2026", desc: "Institut français du TCHAD - N'Djamena", link: true },
+    { date: "Samedi 23 Mai 2026", desc: "Soirée DJAZZ (Lieu à Définir)" },
+    { date: "Dimanche le 24 Mai mai 2026", desc: "A Venir" },
   ];
 
   return (

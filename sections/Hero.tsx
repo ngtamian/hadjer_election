@@ -77,7 +77,7 @@ export function Hero() {
                   <div className="text-3xl font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">
                  100%
                   </div>
-                  <div className="text-base sm:text-lg font-bold text-slate-700">À l'écoute des  de nos concitoyens</div>
+                  <div className="text-base sm:text-lg font-bold text-slate-700">À l'écoute de nos concitoyens</div>
                 </div>
               </div>
             </div>

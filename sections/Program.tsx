@@ -61,8 +61,8 @@ export function Program() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 mb-4">
             Des projets <span className="text-gradient">concrets</span> pour tous
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Six axes prioritaires pour améliorer concrètement le quotidien des Français du Tchad et renforcer notre communauté.
+          <p className="text-lg font-bold text-black max-w-2xl mx-auto">
+            Six axes prioritaires pour améliorer concrètement le quotidien des Français du Tchad et renforcer notre communauté
           </p>
         </div>
 

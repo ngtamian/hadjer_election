@@ -16,7 +16,7 @@ export function About() {
            </span>
         </h2>
           <p className="text-base sm:text-lg font-bold text-slate-700">
-            Découvrez les visages de notre candidature et notre vision commune pour l’avenir des Français au Tchad.
+            Découvrez les visages de notre candidature et notre vision commune pour l’avenir des Français au Tchad
           </p>
         </div>
 
@@ -133,11 +133,11 @@ export function About() {
           
           <div className="relative z-10 text-center max-w-3xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">Notre vision commune</h3>
-            <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-white leading-relaxed mb-8 font-bold">
               Avec engagement, nous portons un projet social, solidaire et écologique pour les Français du Tchad, dans un esprit de paix et d’unité.<br/>
               Vivre à l’étranger ne doit jamais signifier être un citoyen de seconde zone.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm font-medium">
+            <div className="flex flex-wrap justify-center gap-4 text-lg md:text-2xl font-bold">
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Écoute</span>
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Transparence</span>
               <span className="px-4 py-2 bg-white/10 rounded-full backdrop-blur-sm">Écologique </span>

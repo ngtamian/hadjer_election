@@ -21,8 +21,8 @@ export function Vote() {
             ?
           </h2>
 
-         <p className="text-lg font-semibold text-gray-600 max-w-2xl mx-auto">
-          Tout savoir sur ces élections dédiées à la communauté française.
+         <p className="text-lg font-bold text-black max-w-2xl mx-auto">
+          Tout savoir sur ces élections dédiées à la communauté française
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export function Vote() {
               <div>
                 <p className="text-gray-600">
                   <span className="font-bold text-gray-900">
-                    30 mai 2026 :
+                    31 mai 2026 :
                   </span>{" "}
                   vote à l’urne ou procuration
                 </p>
@@ -131,7 +131,7 @@ export function Vote() {
                     Vote à l'urne
                   </h4>
                   <p className="text-white/90 text-sm">
-                    Lieux et horaires communiqués par le consulat.
+                    Lieux et horaires communiqués par le consulat
                   </p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export function Vote() {
                     </a>
                   </h4>
                    <p className="text-white text-sm drop-shadow">
-                    Via une personne inscrite sur la même liste.
+                    Via une personne inscrite sur la même liste
                   </p>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export function Vote() {
                     </a>
                   </h4>
                   <p className="text-white text-sm drop-shadow">
-                    ouvert du vendredi 22 mai à 12h00 (heure de Paris) au mercredi 27 mai 2026 à 12h00 (heure de Paris).
+                    ouvert du vendredi 22 mai à 12h00 (heure de Paris) au mercredi 27 mai 2026 à 12h00 (heure de Paris)
                   </p>
                 </div>
               </div>

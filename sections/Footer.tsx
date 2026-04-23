@@ -21,7 +21,7 @@ export function Footer() {
           <div className="flex flex-col items-center text-center max-w-xl">
             
             {/* Texte */}
-            <p className="text-3xl md:text-4xl text-gray-600 leading-relaxed font-semibold">
+            <p className="text-3xl md:text-4xl text-black leading-relaxed font-bold">
              Engagement • Social • Solidaire • Écologique • Et pour la paix
             </p>
           </div>

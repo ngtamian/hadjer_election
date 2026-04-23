@@ -42,8 +42,8 @@ export function Contact() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 mb-4">
             Restons en <span className="text-gradient">contact</span>
           </h2>
-         <p className="text-lg font-semibold text-slate-600 max-w-2xl mx-auto whitespace-nowrap">
-  Une question, une suggestion ? N'hésitez pas à nous contacter. Nous sommes à votre écoute.
+         <p className="text-lg font-bold text-black max-w-2xl mx-auto whitespace-nowrap">
+  Une question, une suggestion ? N'hésitez pas à nous contacter. Nous sommes à votre écoute
 </p>
         </div>
 
