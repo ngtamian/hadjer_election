@@ -34,7 +34,7 @@ export function About() {
                   />
                 </div>
                 <div className="absolute -bottom-3 -right-3 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
-                  Titulaire
+                  Candidate
                 </div>
               </div>
               

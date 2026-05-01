@@ -110,7 +110,7 @@ export function Contact() {
           {/* Contact Form */}
           <div className="bg-slate-50 p-8 rounded-2xl border border-slate-100">
            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">
-              Envoyez-nous un message ou une procuration
+              Envoyez-nous un message
             </h3>
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid sm:grid-cols-1 gap-5">
@@ -151,7 +151,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="space-y-2">
+              {/* <div className="space-y-2">
                 <Label htmlFor="subject" className="font-bold">Numéro NUMIC</Label>
                 <Input
                   id="subject"
@@ -161,7 +161,7 @@ export function Contact() {
                   required
                   className="bg-white"
                 />
-              </div>
+              </div> */}
 
               <div className="space-y-2">
                 <Label htmlFor="message" className="font-bold">Message</Label>

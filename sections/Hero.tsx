@@ -103,9 +103,11 @@ export function Hero() {
                   </div>
                   
                   {/* Name Badge */}
-                  <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white px-6 py-3 rounded-xl shadow-lg">
+                  <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white px-6 py-3 rounded-xl shadow-lg flex flex-col items-center">
                     <p className="text-lg font-bold text-slate-800">Cathy HADJER</p>
-                    <p className="text-sm font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">Candidate Conseillière</p>
+                    <span className="text-lg font-bold text-slate-800">&</span>
+                    <p className="text-lg font-bold text-slate-800">Mathieu GBEKAN</p>
+                    {/* <p className="text-sm font-bold bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] bg-clip-text text-transparent">Candidate Conseillière</p> */}
                   </div>
                 </div>
               </div>

@@ -143,7 +143,7 @@ export function Vote() {
                 </div> */}
                 <div>
                   <h4 className="font-bold underline">
-                    <a  href="#contact" target="_blank" >
+                    <a  /* href="#contact" */ target="_blank" >
                     Vote par procuration
                     </a>
                   </h4>
