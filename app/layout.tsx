@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Engagement • Solidaire",
-  description: "By Cathy & Mathieu",
+  description: "By Cathy et Mathieu",
 };
 
 export default function RootLayout({
