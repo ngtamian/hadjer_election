@@ -91,7 +91,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-800 mb-1">Téléphone</h3>
-                  <p className="text-slate-600">+235 66 04 40 60</p>
+                  <p className="text-slate-600">+235 66 77 27 67</p>
                 </div>
               </div>
             </div>
