@@ -1,5 +1,6 @@
 "use client";
 import { Vote } from "lucide-react";
+import { VisitorCounter } from "@/components/VisitorCounter";
 
 export function Footer() {
   return (
@@ -37,8 +38,9 @@ export function Footer() {
         </div>
 
         {/* Bas de footer (optionnel pro) */}
-        <div className="mt-12 text-center text-xs text-black font-bold">
-          © {new Date().getFullYear()} Cathy HADJER — Tous droits réservés
+        <div className="mt-12 flex flex-col items-center gap-2 text-center text-xs text-black font-bold">
+          <span>© {new Date().getFullYear()} Cathy HADJER — Tous droits réservés</span>
+          <VisitorCounter />
         </div>
 
       </div>
