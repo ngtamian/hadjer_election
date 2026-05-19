@@ -4,7 +4,7 @@ export function Event() {
   const events = [
     { date: "Samedi 9 Mai 2026", desc: "A Venir" },
     { date: "Samedi 16 Mai 2026", desc: "Institut français du TCHAD - N'Djamena", link: true },
-    { date: "Samedi 23 Mai 2026", desc: "Soirée DJAZZ (Lieu à Définir)" },
+    { date: "Samedi 23 Mai 2026 - Rencontre Musicale ", desc: "Lieu : Espace KG COWORKING <br/> (En Face de Lily’s Supermarket / Klemat)" },
     { date: "Dimanche le 24 Mai mai 2026", desc: "A Venir" },
   ];
 
@@ -45,7 +45,7 @@ export function Event() {
           : ""
       }`}
     >
-      {event.desc}
+      <p dangerouslySetInnerHTML={{ __html: event.desc }} />
                 </p>
               </div>
             ))}
