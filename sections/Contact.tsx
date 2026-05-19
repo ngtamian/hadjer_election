@@ -13,7 +13,7 @@ import {
 
 } from 'lucide-react';
 
-import { FaFacebook, FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { FaFacebook } from 'react-icons/fa6';
 import { toast } from 'sonner';
 
 export function Contact() {
@@ -92,6 +92,23 @@ export function Contact() {
                 <div>
                   <h3 className="text-lg font-semibold text-slate-800 mb-1">Téléphone</h3>
                   <p className="text-slate-600">+235 66 77 27 67</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-[#5B21B6] via-[#C026D3] to-[#F472B6] rounded-xl flex items-center justify-center flex-shrink-0">
+                  <FaFacebook className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-800 mb-1">Facebook</h3>
+                  <a
+                    href="https://www.facebook.com/share/1B7eFhJC5N/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-600 hover:text-[#C026D3] transition-colors"
+                  >
+                  Tous Ensemble Solidaire et Écologiste - Tchad - France
+                  </a>
                 </div>
               </div>
             </div>
